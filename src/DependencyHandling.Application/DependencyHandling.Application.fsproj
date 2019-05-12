@@ -5,7 +5,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Library.fs"/>
+        <Compile Include="Contact.Services.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DependencyHandling.Domain\DependencyHandling.Domain.fsproj" />
     </ItemGroup>
 
 </Project>
