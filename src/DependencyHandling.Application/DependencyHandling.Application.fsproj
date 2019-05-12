@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Compile Include="Contact.Workflows.fs" />
         <Compile Include="Contact.Services.fs" />
     </ItemGroup>
 

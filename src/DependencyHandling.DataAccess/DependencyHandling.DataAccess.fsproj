@@ -9,6 +9,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\DependencyHandling.Application\DependencyHandling.Application.fsproj" />
       <ProjectReference Include="..\DependencyHandling.Domain\DependencyHandling.Domain.fsproj" />
     </ItemGroup>
 
