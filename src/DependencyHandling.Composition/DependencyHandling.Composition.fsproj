@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Library.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DependencyHandling.Application\DependencyHandling.Application.fsproj" />
+      <ProjectReference Include="..\DependencyHandling.DataAccess\DependencyHandling.DataAccess.fsproj" />
+      <ProjectReference Include="..\DependencyHandling.Domain\DependencyHandling.Domain.fsproj" />
+    </ItemGroup>
+
+</Project>
