@@ -441,3 +441,9 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/rider,fsharp,visualstudio,visualstudiocode
+.idea/.idea.DependencyHandling/.idea/encodings.xml
+.idea/.idea.DependencyHandling/.idea/indexLayout.xml
+.idea/.idea.DependencyHandling/.idea/misc.xml
+.idea/.idea.DependencyHandling/.idea/modules.xml
+.idea/.idea.DependencyHandling/.idea/vcs.xml
+.idea/.idea.DependencyHandling/riderModule.iml
